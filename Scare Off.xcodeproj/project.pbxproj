@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0A8ACC1DA367E70094EBD0 /* red_crow_final_size.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A8AC91DA367E70094EBD0 /* red_crow_final_size.png */; };
+		EB0A8AD61DA36AB40094EBD0 /* background_field_image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A8AD51DA36AB40094EBD0 /* background_field_image.png */; };
+		EB0A8AD81DA36B400094EBD0 /* green_crow_final_size.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A8AD71DA36B400094EBD0 /* green_crow_final_size.png */; };
+		EB0A8ADA1DA36E630094EBD0 /* green_crow_final_image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A8AD91DA36E630094EBD0 /* green_crow_final_image.png */; };
+		EB0A8ADC1DA373F80094EBD0 /* red_crow_final_image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A8ADB1DA373F80094EBD0 /* red_crow_final_image.png */; };
+		EB1064F21DB9C535003B096B /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1064F11DB9C534003B096B /* GameOverScene.m */; };
+		EB1B92DA1DF665A80058ACE5 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1B92D91DF665A80058ACE5 /* GameOverViewController.m */; };
+		EB839CD61DE3EAAC0019D789 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB839CD51DE3EAAC0019D789 /* RootViewController.m */; };
+		EB839CD81DE3F9330019D789 /* Grass in Resources */ = {isa = PBXBuildFile; fileRef = EB839CD71DE3F9330019D789 /* Grass */; };
+		EB9D15A31DBB0C5800CDEB7E /* MyParticleEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB9D15A11DBB0C5800CDEB7E /* MyParticleEmitter.sks */; };
+		EB9D15A41DBB0C5800CDEB7E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D15A21DBB0C5800CDEB7E /* spark.png */; };
+		EBFAD42D1D9B678F00C0705F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD42C1D9B678F00C0705F /* main.m */; };
+		EBFAD4301D9B678F00C0705F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD42F1D9B678F00C0705F /* AppDelegate.m */; };
+		EBFAD4321D9B678F00C0705F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBFAD4311D9B678F00C0705F /* GameScene.sks */; };
+		EBFAD4341D9B678F00C0705F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBFAD4331D9B678F00C0705F /* Actions.sks */; };
+		EBFAD4371D9B678F00C0705F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD4361D9B678F00C0705F /* GameScene.m */; };
+		EBFAD43A1D9B678F00C0705F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD4391D9B678F00C0705F /* GameViewController.m */; };
+		EBFAD43D1D9B678F00C0705F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFAD43B1D9B678F00C0705F /* Main.storyboard */; };
+		EBFAD43F1D9B678F00C0705F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFAD43E1D9B678F00C0705F /* Assets.xcassets */; };
+		EBFAD4421D9B678F00C0705F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFAD4401D9B678F00C0705F /* LaunchScreen.storyboard */; };
+		EBFAD44D1D9B678F00C0705F /* Scare_OffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD44C1D9B678F00C0705F /* Scare_OffTests.m */; };
+		EBFAD4581D9B679000C0705F /* Scare_OffUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAD4571D9B679000C0705F /* Scare_OffUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBFAD4491D9B678F00C0705F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFAD4201D9B678F00C0705F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFAD4271D9B678F00C0705F;
+			remoteInfo = "Scare Off";
+		};
+		EBFAD4541D9B678F00C0705F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFAD4201D9B678F00C0705F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFAD4271D9B678F00C0705F;
+			remoteInfo = "Scare Off";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0A8AC91DA367E70094EBD0 /* red_crow_final_size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_crow_final_size.png; sourceTree = "<group>"; };
+		EB0A8AD51DA36AB40094EBD0 /* background_field_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_field_image.png; sourceTree = "<group>"; };
+		EB0A8AD71DA36B400094EBD0 /* green_crow_final_size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_crow_final_size.png; sourceTree = "<group>"; };
+		EB0A8AD91DA36E630094EBD0 /* green_crow_final_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_crow_final_image.png; sourceTree = "<group>"; };
+		EB0A8ADB1DA373F80094EBD0 /* red_crow_final_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_crow_final_image.png; sourceTree = "<group>"; };
+		EB1064F01DB9C534003B096B /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		EB1064F11DB9C534003B096B /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		EB1B92D81DF665A80058ACE5 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		EB1B92D91DF665A80058ACE5 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		EB1B92DB1DF6710E0058ACE5 /* GameOverDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOverDelegate.h; sourceTree = "<group>"; };
+		EB839CD41DE3EAAC0019D789 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EB839CD51DE3EAAC0019D789 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EB839CD71DE3F9330019D789 /* Grass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grass; sourceTree = "<group>"; };
+		EB9D15A11DBB0C5800CDEB7E /* MyParticleEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticleEmitter.sks; sourceTree = "<group>"; };
+		EB9D15A21DBB0C5800CDEB7E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		EBFAD4281D9B678F00C0705F /* Scare Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scare Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFAD42C1D9B678F00C0705F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFAD42E1D9B678F00C0705F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBFAD42F1D9B678F00C0705F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBFAD4311D9B678F00C0705F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EBFAD4331D9B678F00C0705F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EBFAD4351D9B678F00C0705F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		EBFAD4361D9B678F00C0705F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		EBFAD4381D9B678F00C0705F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		EBFAD4391D9B678F00C0705F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		EBFAD43C1D9B678F00C0705F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBFAD43E1D9B678F00C0705F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFAD4411D9B678F00C0705F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBFAD4431D9B678F00C0705F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFAD4481D9B678F00C0705F /* Scare OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scare OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFAD44C1D9B678F00C0705F /* Scare_OffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scare_OffTests.m; sourceTree = "<group>"; };
+		EBFAD44E1D9B678F00C0705F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFAD4531D9B678F00C0705F /* Scare OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scare OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFAD4571D9B679000C0705F /* Scare_OffUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scare_OffUITests.m; sourceTree = "<group>"; };
+		EBFAD4591D9B679000C0705F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFAD4251D9B678F00C0705F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD4451D9B678F00C0705F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD4501D9B678F00C0705F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBFAD41F1D9B678F00C0705F = {
+			isa = PBXGroup;
+			children = (
+				EBFAD42A1D9B678F00C0705F /* Scare Off */,
+				EBFAD44B1D9B678F00C0705F /* Scare OffTests */,
+				EBFAD4561D9B678F00C0705F /* Scare OffUITests */,
+				EBFAD4291D9B678F00C0705F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFAD4291D9B678F00C0705F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAD4281D9B678F00C0705F /* Scare Off.app */,
+				EBFAD4481D9B678F00C0705F /* Scare OffTests.xctest */,
+				EBFAD4531D9B678F00C0705F /* Scare OffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFAD42A1D9B678F00C0705F /* Scare Off */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAD46B1D9B67F500C0705F /* Resources */,
+				EBFAD42E1D9B678F00C0705F /* AppDelegate.h */,
+				EBFAD42F1D9B678F00C0705F /* AppDelegate.m */,
+				EBFAD4311D9B678F00C0705F /* GameScene.sks */,
+				EBFAD4331D9B678F00C0705F /* Actions.sks */,
+				EB9D15A11DBB0C5800CDEB7E /* MyParticleEmitter.sks */,
+				EBFAD4351D9B678F00C0705F /* GameScene.h */,
+				EBFAD4361D9B678F00C0705F /* GameScene.m */,
+				EB839CD41DE3EAAC0019D789 /* RootViewController.h */,
+				EB839CD51DE3EAAC0019D789 /* RootViewController.m */,
+				EBFAD4381D9B678F00C0705F /* GameViewController.h */,
+				EBFAD4391D9B678F00C0705F /* GameViewController.m */,
+				EB1064F01DB9C534003B096B /* GameOverScene.h */,
+				EB1064F11DB9C534003B096B /* GameOverScene.m */,
+				EB1B92DB1DF6710E0058ACE5 /* GameOverDelegate.h */,
+				EB1B92D81DF665A80058ACE5 /* GameOverViewController.h */,
+				EB1B92D91DF665A80058ACE5 /* GameOverViewController.m */,
+				EBFAD43B1D9B678F00C0705F /* Main.storyboard */,
+				EBFAD43E1D9B678F00C0705F /* Assets.xcassets */,
+				EBFAD4401D9B678F00C0705F /* LaunchScreen.storyboard */,
+				EBFAD4431D9B678F00C0705F /* Info.plist */,
+				EBFAD42B1D9B678F00C0705F /* Supporting Files */,
+			);
+			path = "Scare Off";
+			sourceTree = "<group>";
+		};
+		EBFAD42B1D9B678F00C0705F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAD42C1D9B678F00C0705F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBFAD44B1D9B678F00C0705F /* Scare OffTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAD44C1D9B678F00C0705F /* Scare_OffTests.m */,
+				EBFAD44E1D9B678F00C0705F /* Info.plist */,
+			);
+			path = "Scare OffTests";
+			sourceTree = "<group>";
+		};
+		EBFAD4561D9B678F00C0705F /* Scare OffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAD4571D9B679000C0705F /* Scare_OffUITests.m */,
+				EBFAD4591D9B679000C0705F /* Info.plist */,
+			);
+			path = "Scare OffUITests";
+			sourceTree = "<group>";
+		};
+		EBFAD46B1D9B67F500C0705F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB839CD71DE3F9330019D789 /* Grass */,
+				EB9D15A21DBB0C5800CDEB7E /* spark.png */,
+				EB0A8AD51DA36AB40094EBD0 /* background_field_image.png */,
+				EB0A8AD91DA36E630094EBD0 /* green_crow_final_image.png */,
+				EB0A8AC91DA367E70094EBD0 /* red_crow_final_size.png */,
+				EB0A8ADB1DA373F80094EBD0 /* red_crow_final_image.png */,
+				EB0A8AD71DA36B400094EBD0 /* green_crow_final_size.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBFAD4271D9B678F00C0705F /* Scare Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFAD45C1D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare Off" */;
+			buildPhases = (
+				EBFAD4241D9B678F00C0705F /* Sources */,
+				EBFAD4251D9B678F00C0705F /* Frameworks */,
+				EBFAD4261D9B678F00C0705F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scare Off";
+			productName = "Scare Off";
+			productReference = EBFAD4281D9B678F00C0705F /* Scare Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBFAD4471D9B678F00C0705F /* Scare OffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFAD45F1D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare OffTests" */;
+			buildPhases = (
+				EBFAD4441D9B678F00C0705F /* Sources */,
+				EBFAD4451D9B678F00C0705F /* Frameworks */,
+				EBFAD4461D9B678F00C0705F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFAD44A1D9B678F00C0705F /* PBXTargetDependency */,
+			);
+			name = "Scare OffTests";
+			productName = "Scare OffTests";
+			productReference = EBFAD4481D9B678F00C0705F /* Scare OffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBFAD4521D9B678F00C0705F /* Scare OffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFAD4621D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare OffUITests" */;
+			buildPhases = (
+				EBFAD44F1D9B678F00C0705F /* Sources */,
+				EBFAD4501D9B678F00C0705F /* Frameworks */,
+				EBFAD4511D9B678F00C0705F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFAD4551D9B678F00C0705F /* PBXTargetDependency */,
+			);
+			name = "Scare OffUITests";
+			productName = "Scare OffUITests";
+			productReference = EBFAD4531D9B678F00C0705F /* Scare OffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFAD4201D9B678F00C0705F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					EBFAD4271D9B678F00C0705F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 49D6255LVL;
+						ProvisioningStyle = Automatic;
+					};
+					EBFAD4471D9B678F00C0705F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBFAD4271D9B678F00C0705F;
+					};
+					EBFAD4521D9B678F00C0705F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBFAD4271D9B678F00C0705F;
+					};
+				};
+			};
+			buildConfigurationList = EBFAD4231D9B678F00C0705F /* Build configuration list for PBXProject "Scare Off" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBFAD41F1D9B678F00C0705F;
+			productRefGroup = EBFAD4291D9B678F00C0705F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFAD4271D9B678F00C0705F /* Scare Off */,
+				EBFAD4471D9B678F00C0705F /* Scare OffTests */,
+				EBFAD4521D9B678F00C0705F /* Scare OffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBFAD4261D9B678F00C0705F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB839CD81DE3F9330019D789 /* Grass in Resources */,
+				EBFAD43D1D9B678F00C0705F /* Main.storyboard in Resources */,
+				EB9D15A41DBB0C5800CDEB7E /* spark.png in Resources */,
+				EB0A8ADC1DA373F80094EBD0 /* red_crow_final_image.png in Resources */,
+				EBFAD4321D9B678F00C0705F /* GameScene.sks in Resources */,
+				EB0A8ADA1DA36E630094EBD0 /* green_crow_final_image.png in Resources */,
+				EB0A8AD81DA36B400094EBD0 /* green_crow_final_size.png in Resources */,
+				EB0A8AD61DA36AB40094EBD0 /* background_field_image.png in Resources */,
+				EB0A8ACC1DA367E70094EBD0 /* red_crow_final_size.png in Resources */,
+				EBFAD43F1D9B678F00C0705F /* Assets.xcassets in Resources */,
+				EBFAD4421D9B678F00C0705F /* LaunchScreen.storyboard in Resources */,
+				EB9D15A31DBB0C5800CDEB7E /* MyParticleEmitter.sks in Resources */,
+				EBFAD4341D9B678F00C0705F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD4461D9B678F00C0705F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD4511D9B678F00C0705F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFAD4241D9B678F00C0705F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1064F21DB9C535003B096B /* GameOverScene.m in Sources */,
+				EBFAD43A1D9B678F00C0705F /* GameViewController.m in Sources */,
+				EB839CD61DE3EAAC0019D789 /* RootViewController.m in Sources */,
+				EBFAD4301D9B678F00C0705F /* AppDelegate.m in Sources */,
+				EB1B92DA1DF665A80058ACE5 /* GameOverViewController.m in Sources */,
+				EBFAD4371D9B678F00C0705F /* GameScene.m in Sources */,
+				EBFAD42D1D9B678F00C0705F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD4441D9B678F00C0705F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFAD44D1D9B678F00C0705F /* Scare_OffTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD44F1D9B678F00C0705F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFAD4581D9B679000C0705F /* Scare_OffUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBFAD44A1D9B678F00C0705F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFAD4271D9B678F00C0705F /* Scare Off */;
+			targetProxy = EBFAD4491D9B678F00C0705F /* PBXContainerItemProxy */;
+		};
+		EBFAD4551D9B678F00C0705F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFAD4271D9B678F00C0705F /* Scare Off */;
+			targetProxy = EBFAD4541D9B678F00C0705F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBFAD43B1D9B678F00C0705F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFAD43C1D9B678F00C0705F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBFAD4401D9B678F00C0705F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFAD4411D9B678F00C0705F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBFAD45A1D9B679000C0705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBFAD45B1D9B679000C0705F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBFAD45D1D9B679000C0705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49D6255LVL;
+				INFOPLIST_FILE = "Scare Off/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scareoff.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBFAD45E1D9B679000C0705F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49D6255LVL;
+				INFOPLIST_FILE = "Scare Off/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scareoff.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBFAD4601D9B679000C0705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scare OffTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Scare-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scare Off.app/Scare Off";
+			};
+			name = Debug;
+		};
+		EBFAD4611D9B679000C0705F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scare OffTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Scare-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scare Off.app/Scare Off";
+			};
+			name = Release;
+		};
+		EBFAD4631D9B679000C0705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scare OffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Scare-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scare Off";
+			};
+			name = Debug;
+		};
+		EBFAD4641D9B679000C0705F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scare OffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Scare-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scare Off";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFAD4231D9B678F00C0705F /* Build configuration list for PBXProject "Scare Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAD45A1D9B679000C0705F /* Debug */,
+				EBFAD45B1D9B679000C0705F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFAD45C1D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAD45D1D9B679000C0705F /* Debug */,
+				EBFAD45E1D9B679000C0705F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFAD45F1D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare OffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAD4601D9B679000C0705F /* Debug */,
+				EBFAD4611D9B679000C0705F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFAD4621D9B679000C0705F /* Build configuration list for PBXNativeTarget "Scare OffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAD4631D9B679000C0705F /* Debug */,
+				EBFAD4641D9B679000C0705F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFAD4201D9B678F00C0705F /* Project object */;
+}
